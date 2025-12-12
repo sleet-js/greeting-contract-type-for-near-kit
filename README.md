@@ -8,7 +8,6 @@ typed hello/greeting contract that can be used with near-kit
 
 ```bash
 bun install
-
 ```
 
 ---
