@@ -1,5 +1,5 @@
 {
-  "name": "greeting-contract-type-for-near-kit",
+  "name": "@sleet-js/greeting-contract-type-for-near-kit",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -7,5 +7,8 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "near-kit": "^0.6.3"
   }
 }
