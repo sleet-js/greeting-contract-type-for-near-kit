@@ -1,6 +1,7 @@
 {
   "name": "@sleet-js/greeting-contract-type-for-near-kit",
   "module": "index.ts",
+  "version": "0.0.1",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
