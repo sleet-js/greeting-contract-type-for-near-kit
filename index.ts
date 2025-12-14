@@ -1,4 +1,4 @@
-import type { Contract } from "near-kit"
+import type { Contract, FinalExecutionOutcome } from "near-kit"
 
 // Define contract interface using Contract<> helper
 export type greetContractType = Contract<{
@@ -6,6 +6,6 @@ export type greetContractType = Contract<{
     get_greeting: () => Promise<string>
   }
   call: {
-    set_greeting: (args: { greeting: string }) => Promise<void>
+    set_greeting: (args: { greeting: string }) => Promise<FinalExecutionOutcome>
   }
 }>
